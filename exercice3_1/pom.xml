@@ -81,32 +81,6 @@
     <!-- =============================================================== -->
     <reporting>
     	<plugins>
-        <!-- ===== Génération de la Javadoc ===== -->
-        	<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.9</version>
-                <configuration>
-                    <quiet>true</quiet>
-                    <locale>fr</locale>
-                </configuration>
-                <reportSets>
-                    <!-- reportSet exécuté dans tous les modules -->
-                    <reportSet>
-                        <reports>
-                            <report>javadoc</report>
-                        </reports>
-                    </reportSet>
-                    <!-- reportSet d'agrégation des rapports des sous-modules -->
-                    <reportSet>
-                        <id>aggregate</id>
-                        <inherited>false</inherited>
-                        <reports>
-                            <report>aggregate</report>
-                        </reports>
-                    </reportSet>
-                </reportSets>
-            </plugin>
         <!-- ===== Rapport d'analyse du code par Checkstyle ===== -->
         	<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
