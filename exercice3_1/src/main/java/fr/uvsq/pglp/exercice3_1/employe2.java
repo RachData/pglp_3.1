@@ -19,6 +19,7 @@ public class employe2 extends allEmploye{
 	public void affichecoordonnees() {
 		// TODO Auto-generated method stub
 		
+		
 	}
 
 }

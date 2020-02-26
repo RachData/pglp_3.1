@@ -17,7 +17,7 @@ public class employe1 extends allEmploye{
 	@Override
 	public void affichecoordonnees() {
 		// TODO Auto-generated method stub
-		System.out.println();
+		System.out.println(this.name+" , "+this.adresse);
 		
 	}
 
